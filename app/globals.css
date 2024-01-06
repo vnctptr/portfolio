@@ -21,3 +21,7 @@ body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
 }
+
+.page-title {
+  font-family: "Titillium Web", "Trebuchet MS", sans-serif;
+}

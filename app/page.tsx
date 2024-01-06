@@ -1,9 +1,13 @@
 import Image from 'next/image'
 import React from "react";
 import Card from "@/app/components/Card";
+import Navbar from "@/app/components/Navbar";
+import "@fontsource/titillium-web/700.css"; // Specify weight
 
 export default function Home() {
   return (
+      <>
+      <Navbar></Navbar>
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
 
 
@@ -83,5 +87,6 @@ export default function Home() {
         </a>
       </div>
     </main>
+      </>
   )
 }
