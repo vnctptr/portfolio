@@ -1,0 +1,30 @@
+.card-outer-container {
+  margin: 2em;
+}
+
+.card-inner-container {
+  background-color: #1b212d;
+  border: 1.5px solid #0f121a;
+  margin: 0 auto;
+  box-shadow: 0.5em 0.5em 0.1em rgba(15, 18, 26, 0.53);
+}
+
+.card-top-bar {
+  display: flex;
+  min-height: 1.5em;
+  background-color: #0f121a;
+  padding: 0.5em;
+}
+
+.card-content {
+  overflow: hidden;
+  border-radius: 0 0 6px 6px;
+}
+
+.small-circle {
+  height: 11px;
+  width: 11px;
+  border-radius: 7px;
+  margin: 0.2em;
+  background-color: #ff6900;
+}
