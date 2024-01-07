@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import Card from "@/app/components/Card/Card";
 import Navbar from "@/app/components/Navbar/Navbar";
