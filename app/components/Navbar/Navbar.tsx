@@ -3,7 +3,7 @@ export default function Navbar() {
     <nav className="flex flex-col text-center sm:flex-row sm:text-left sm:justify-between py-4 px-6 sm:items-baseline w-full">
       <div className="mb-2 sm:mb-0">
         <a
-          href="#"
+          href="/"
           className="page-title text-2xl no-underline text-grey-darkest hover:text-blue-dark"
         >
           Vincent Potrykus
