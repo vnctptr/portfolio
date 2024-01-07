@@ -11,6 +11,6 @@
   display: flex;
 }
 
-.icon-container > * {
-  margin: 0.4em;
+.icon:hover {
+  filter: opacity(75%);
 }

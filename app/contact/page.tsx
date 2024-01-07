@@ -13,6 +13,7 @@ export default function Page() {
         <div className="icon-container">
           <Link href="https://github.com/vnctptr">
             <Image
+              className="icon"
               src="/github-icon-white.svg"
               alt="GitHub"
               width={35}
@@ -23,6 +24,7 @@ export default function Page() {
 
           <Link href="https://www.linkedin.com/in/vincent-potrykus-593a53214/">
             <Image
+              className="icon"
               src="/linkedin-icon-white.svg"
               alt="LinkedIn"
               width={36}
