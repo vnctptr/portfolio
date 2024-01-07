@@ -10,6 +10,7 @@
 .icon-container {
   display: flex;
   gap: 1em;
+  align-items: center;
 }
 
 .icon:hover {

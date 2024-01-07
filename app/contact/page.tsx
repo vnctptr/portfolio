@@ -32,6 +32,17 @@ export default function Page() {
               priority
             />
           </Link>
+
+          <Link href="mailto:vapotrykus@gmail.com">
+            <Image
+              className="icon"
+              src="/email.svg"
+              alt="Email"
+              width={40}
+              height={40}
+              priority
+            />
+          </Link>
         </div>
       </div>
     </>
