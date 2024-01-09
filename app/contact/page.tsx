@@ -9,7 +9,17 @@ export default function Page() {
     <>
       <Navbar />
       <div className="contact-inner-container flat-box">
-        <h1>Get in touch with me!</h1>
+        <div className="text-center">
+          <h1 className="text-2xl">Say Hi!</h1>
+        </div>
+        <p className="mt-6 mb-8">
+          If you'd like to get in touch with me, feel free to send me an email
+          at{" "}
+          <a href="mailto:vincentpotrykus@gmail.com">
+            vincentpotrykus@gmail.com
+          </a>
+          . You can also find me on Github and LinkedIn using the icons below.
+        </p>
         <div className="icon-container">
           <Link href="https://github.com/vnctptr">
             <Image
