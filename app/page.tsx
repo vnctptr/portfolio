@@ -13,7 +13,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-between">
         <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
           <div className="col-span-2 mx-8 my-9 p-8 flat-box">
-            <p>
+            <p className="text-left">
               Welcome to my digital realm, where lines of code dance and ideas
               come to life! I am a passionate and innovative software developer
               dedicated to crafting elegant solutions that seamlessly merge form
