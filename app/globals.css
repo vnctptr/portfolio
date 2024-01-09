@@ -22,6 +22,19 @@ body {
   background: rgb(var(--background-rgb));
 }
 
+p {
+  font-size: 0.95em;
+  text-align: left;
+}
+
 .page-title {
   font-family: "Titillium Web", "Trebuchet MS", sans-serif;
+}
+
+.about-section {
+  color: #ffffffc4;
+  /* border: 1px solid #ffffff1a; */
+  border-radius: 10px;
+  background-color: #1b212d57;
+  box-shadow: 0.5em 0.5em 0.1em rgba(15, 18, 26, 0.53);
 }
