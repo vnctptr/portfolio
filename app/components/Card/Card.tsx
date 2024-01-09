@@ -6,8 +6,8 @@ import Image from "next/image";
 
 export default function Card({ imageSrc }: { imageSrc: string }) {
   return (
-    <div className="card-outer-container">
-      <div className="card-inner-container">
+    <div className="m-8">
+      <div className="card-container">
         <div className="card-top-bar">
           <div className="small-circle" />
           <div className="small-circle" />

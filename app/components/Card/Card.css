@@ -1,8 +1,4 @@
-.card-outer-container {
-  margin: 2em;
-}
-
-.card-inner-container {
+.card-container {
   background-color: #1b212d;
   border: 1.5px solid #0f121a;
   margin: 0 auto;
