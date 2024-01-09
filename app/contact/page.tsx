@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <>
       <Navbar />
-      <div className="contact-inner-container">
+      <div className="contact-inner-container flat-box">
         <h1>Get in touch with me!</h1>
         <div className="icon-container">
           <Link href="https://github.com/vnctptr">
@@ -21,7 +21,6 @@ export default function Page() {
               priority
             />
           </Link>
-
           <Link href="https://www.linkedin.com/in/vincent-potrykus-593a53214/">
             <Image
               className="icon"
@@ -32,7 +31,6 @@ export default function Page() {
               priority
             />
           </Link>
-
           <Link href="mailto:vapotrykus@gmail.com">
             <Image
               className="icon"

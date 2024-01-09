@@ -12,11 +12,26 @@ export default function Home() {
 
       <main className="flex flex-col items-center justify-between">
         <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
-          <div className="col-span-2 mx-8">
-            Hi! I'm a software developer based in Victoria, BC. I'm currently
-            working at a startup. I'm passionate about building software that
-            improves people's lives. I'm always looking for new opportunities to
-            learn and grow.
+          <div className="col-span-2 mx-8 my-9 p-8 flat-box">
+            <p>
+              Welcome to my digital realm, where lines of code dance and ideas
+              come to life! I am a passionate and innovative software developer
+              dedicated to crafting elegant solutions that seamlessly merge form
+              and function.{" "}
+              <span style={{ color: "white" }}>
+                <b>With a keen eye for detail and a love for problem-solving</b>
+              </span>
+              , I thrive on turning complex challenges into streamlined,
+              user-friendly experiences. Whether it's{" "}
+              <span style={{ color: "white" }}>
+                <b>building robust web applications</b>
+              </span>
+              , optimizing databases, or delving into the intricacies of
+              algorithm design, I approach each project with a blend of
+              creativity and precision. Join me on this exciting expedition
+              through the digital landscape, where every line of code is a
+              brushstroke in the canvas of innovation.
+            </p>
           </div>
         </div>
 
