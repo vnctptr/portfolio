@@ -10,9 +10,10 @@ export default function Home() {
     <>
       <Navbar></Navbar>
 
-      <main className="flex flex-col items-center justify-between">
-        <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
-          <div className="col-span-2 mx-8 my-9 p-8 flat-box">
+      <main className="flex flex-col items-center justify-between max-w">
+        <div className="grid text-center lg:max-w-4xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
+          <div className="col-span-2 mx-8 mt-9">
+            <h1 className="font-bold mb-3">ABOUT</h1>
             <p className="text-left">
               Welcome to my digital realm, where lines of code dance and ideas
               come to life! I am a passionate and innovative software developer
@@ -32,10 +33,10 @@ export default function Home() {
               through the digital landscape, where every line of code is a
               brushstroke in the canvas of innovation.
             </p>
+            <h1 className="font-bold mt-5">PROJECTS</h1>
           </div>
         </div>
-
-        <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
+        <div className="mb-32 grid text-center lg:max-w-4xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
           <Card imageSrc={habitImageSrc} />
           <Card imageSrc={devJournalImageSrc} />
           <Card imageSrc={habitImageSrc} />
