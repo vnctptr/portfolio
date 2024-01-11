@@ -11,12 +11,6 @@ export default function Navbar() {
       </div>
       <div>
         <a
-          href="about"
-          className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2"
-        >
-          About
-        </a>
-        <a
           href="contact"
           className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2"
         >
