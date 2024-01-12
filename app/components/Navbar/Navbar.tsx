@@ -5,9 +5,7 @@ export default function Navbar() {
         <a
           href="/"
           className="page-title text-2xl no-underline text-grey-darkest hover:text-blue-dark"
-        >
-          Vincent Potrykus
-        </a>
+        ></a>
       </div>
       <div>
         <a
