@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <>
       <Navbar></Navbar>
-      <main className="flex flex-col items-center justify-between max-w">
-        <div className="grid lg:max-w-4xl lg:w-full lg:mb-0 lg:grid-cols-2">
+      <main className="flex flex-col items-center juswtify-between max-w">
+        <div className="grid lg:max-w-3xl lg:w-full lg:mb-0 lg:grid-cols-2">
           <div className="col-span-2 mx-8 mt-9">
-            <h1 className="font-bold mb-8 text-left text-5xl header-font">
+            <h1 className="font-bold mb-14 text-left text-5xl header-font">
               Vincent Potrykus
             </h1>
             <p className="text-left mb-8">
@@ -28,7 +28,7 @@ export default function Home() {
               <a href="https://www.vnctptr.me">Dev Journal</a>!
             </p>
             <SocialIcons />
-            <h1 className="font-bold mb-3 text-left">ABOUT</h1>
+            <h1 className="font-bold mb-3 mt-20 text-left">ABOUT</h1>
             <p className="text-left mb-8">
               Welcome to my digital realm, where lines of code dance and ideas
               come to life! I am a passionate and innovative software developer
@@ -48,10 +48,10 @@ export default function Home() {
               through the digital landscape, where every line of code is a
               brushstroke in the canvas of innovation.
             </p>
-            <h1 className="font-bold mt-5 text-left">PROJECTS</h1>
+            <h1 className="font-bold mt-20 text-left">PROJECTS</h1>
           </div>
         </div>
-        <div className="mb-32 grid lg:max-w-4xl lg:w-full lg:mb-0 lg:grid-cols-2 text-left">
+        <div className="mb-32 grid lg:max-w-3xl lg:w-full lg:mb-0 lg:grid-cols-2 text-left">
           <Card imageSrc={habitImageSrc} />
           <Card imageSrc={devJournalImageSrc} />
           <Card imageSrc={habitImageSrc} />
