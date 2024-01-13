@@ -13,8 +13,8 @@ export default function Page() {
           <h1 className="text-2xl">Say Hi!</h1>
         </div>
         <p className="mt-6 mb-8">
-          If you'd like to get in touch with me, feel free to send me an email
-          at{" "}
+          If you&apos;d like to get in touch with me, feel free to send me an
+          email at{" "}
           <a href="mailto:vincentpotrykus@gmail.com">
             vincentpotrykus@gmail.com
           </a>
