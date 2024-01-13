@@ -25,7 +25,7 @@ export default function Home() {
               </a>
               . You can also find me on Github and LinkedIn using the icons
               below. PS Don’t forget to check out my{" "}
-              <a href="https://vnctptr.me">Dev Journal</a>!
+              <a href="https://www.vnctptr.me">Dev Journal</a>!
             </p>
             <SocialIcons />
             <h1 className="font-bold mb-3 text-left">ABOUT</h1>
