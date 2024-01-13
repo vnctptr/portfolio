@@ -2,8 +2,6 @@ import React from "react";
 import Card from "@/app/components/Card/Card";
 import Navbar from "@/app/components/Navbar/Navbar";
 import "@fontsource/titillium-web/700.css";
-import Link from "next/link";
-import Image from "next/image";
 import SocialIcons from "@/app/components/SocialIcons/SocialIcons";
 
 export default function Home() {
@@ -12,7 +10,6 @@ export default function Home() {
   return (
     <>
       <Navbar></Navbar>
-
       <main className="flex flex-col items-center justify-between max-w">
         <div className="grid lg:max-w-4xl lg:w-full lg:mb-0 lg:grid-cols-2">
           <div className="col-span-2 mx-8 mt-9">
@@ -20,9 +17,9 @@ export default function Home() {
               Vincent Potrykus
             </h1>
             <p className="text-left mb-8">
-              Hi! Welcome to my portfolio page. My name is Vincent and I’m a
-              software developer based in beautiful Victoria, BC If you'd like
-              to get in touch with me, feel free to send me an email at{" "}
+              Hi! Welcome to my portfolio page. My name is Vincent and I&apos;m
+              a software developer based in beautiful Victoria, BC If you&apos;d
+              like to get in touch with me, feel free to send me an email at{" "}
               <a href="mailto:vincentpotrykus@gmail.com">
                 vincentpotrykus@gmail.com
               </a>
@@ -41,7 +38,7 @@ export default function Home() {
                 <b>With a keen eye for detail and a love for problem-solving</b>
               </span>
               , I thrive on turning complex challenges into streamlined,
-              user-friendly experiences. Whether it's{" "}
+              user-friendly experiences. Whether it&apos;s{" "}
               <span style={{ color: "white" }}>
                 <b>building robust web applications</b>
               </span>
