@@ -10,7 +10,7 @@ export default function Navbar() {
       <div>
         <a
           href="contact"
-          className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2"
+          className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2 header-font"
         >
           Contact
         </a>
