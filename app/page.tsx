@@ -16,7 +16,7 @@ export default function Home() {
             <h1 className="font-bold mb-14 text-left text-5xl header-font">
               Vincent Potrykus
             </h1>
-            <p className="text-left mb-8">
+            <p className="text-left mb-8 link-accent">
               Hi! Welcome to my portfolio page. My name is Vincent and I&apos;m
               a software developer based in beautiful Victoria, BC If you&apos;d
               like to get in touch with me, feel free to send me an email at{" "}

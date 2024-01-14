@@ -40,3 +40,11 @@ p {
   background-color: #1b212d57;
   box-shadow: 0.5em 0.5em 0.1em rgba(15, 18, 26, 0.53);
 }
+
+.link-accent > a {
+  color: #ff6900;
+}
+
+.link-accent > a:hover {
+  color: #c85300;
+}
