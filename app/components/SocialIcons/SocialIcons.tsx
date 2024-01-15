@@ -11,7 +11,7 @@ export default function SocialIcons() {
     <div className="icon-container">
       <Link href={githubLink}>
         <Image
-          className="icon"
+          className="link"
           src="/github-icon-white.svg"
           alt="GitHub"
           width={35}
@@ -21,7 +21,7 @@ export default function SocialIcons() {
       </Link>
       <Link href={linkedInLink}>
         <Image
-          className="icon"
+          className="link"
           src="/linkedin-icon-white.svg"
           alt="LinkedIn"
           width={36}
@@ -31,7 +31,7 @@ export default function SocialIcons() {
       </Link>
       <Link href={emailLink}>
         <Image
-          className="icon"
+          className="link"
           src="/email.svg"
           alt="Email"
           width={40}

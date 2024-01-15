@@ -41,6 +41,10 @@ p {
   box-shadow: 0.5em 0.5em 0.1em rgba(15, 18, 26, 0.53);
 }
 
+.link:hover {
+  filter: opacity(75%);
+}
+
 .link-accent > a {
   color: #ff6900;
 }

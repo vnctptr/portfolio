@@ -4,13 +4,3 @@
   margin-top: 6em;
   padding: 2.5em;
 }
-
-.icon-container {
-  display: flex;
-  gap: 1em;
-  align-items: center;
-}
-
-.icon:hover {
-  filter: opacity(75%);
-}

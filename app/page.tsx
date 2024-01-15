@@ -3,6 +3,7 @@ import Card from "@/app/components/Card/Card";
 import Navbar from "@/app/components/Navbar/Navbar";
 import "@fontsource/titillium-web/700.css";
 import SocialIcons from "@/app/components/SocialIcons/SocialIcons";
+import Image from "next/image";
 
 export default function Home() {
   let habitImageSrc = "/habit-iphone.png";
@@ -27,7 +28,26 @@ export default function Home() {
               below. PS Don’t forget to check out my{" "}
               <a href="https://www.vnctptr.me">Dev Journal</a>!
             </p>
-            <SocialIcons />
+            <div className="flex gap-4">
+              <SocialIcons />
+              <div className="download-button px-5 py-1.5 rounded-3xl m-2">
+                <a
+                  href="/resume.pdf"
+                  download="vincent-potrykus-resume.pdf"
+                  className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2 header-font download-button link"
+                >
+                  Resume
+                  <Image
+                    className="pl-2"
+                    src="/download.svg"
+                    alt="GitHub"
+                    width={30}
+                    height={30}
+                    priority
+                  />
+                </a>
+              </div>
+            </div>
             <h1 className="font-bold mb-3 mt-20 text-left">ABOUT</h1>
             <p className="text-left mb-8">
               Welcome to my digital realm, where lines of code dance and ideas
