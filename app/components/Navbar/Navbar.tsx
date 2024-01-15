@@ -1,5 +1,4 @@
 import "./Navbar.css";
-import Image from "next/image";
 import React from "react";
 export default function Navbar() {
   return (
@@ -11,23 +10,19 @@ export default function Navbar() {
         ></a>
       </div>
       <div>
-        <div className="download-button px-5 py-1.5 rounded-3xl m-2">
-          <a
-            href="/resume.pdf"
-            download="vincent-potrykus-resume.pdf"
-            className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2 header-font download-button"
-          >
-            Resume
-            <Image
-              className="icon pl-2"
-              src="/download.svg"
-              alt="GitHub"
-              width={30}
-              height={30}
-              priority
-            />
-          </a>
-        </div>
+        <a
+          href="contact"
+          className="text-lg no-underline text-grey-darkest hover:text-blue-dark header-font"
+        >
+          Contact
+        </a>
+        <a
+          href="http://www.vnctptr.me"
+          target="_blank"
+          className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-4 header-font"
+        >
+          Dev Journal
+        </a>
       </div>
     </nav>
   );
