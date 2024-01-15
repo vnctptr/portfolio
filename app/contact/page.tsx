@@ -11,7 +11,7 @@ export default function Page() {
         <div className="text-center">
           <h1 className="text-2xl">Say Hi!</h1>
         </div>
-        <p className="mt-6 mb-8">
+        <p className="mt-6 mb-8 link-accent">
           If you&apos;d like to get in touch with me, feel free to send me an
           email at{" "}
           <a href="mailto:vincentpotrykus@gmail.com">
