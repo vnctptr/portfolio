@@ -8,7 +8,7 @@ export default function SocialIcons() {
   let linkedInLink = "https://www.linkedin.com/in/vincent-potrykus-593a53214/";
   let emailLink = "mailto:vincentpotrykus@gmail.com";
   return (
-    <div className="icon-container mb-8">
+    <div className="icon-container">
       <Link href={githubLink}>
         <Image
           className="icon"
