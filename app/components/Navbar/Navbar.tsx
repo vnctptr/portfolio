@@ -21,7 +21,7 @@ export default function Navbar() {
         </a>
         <a
           href="contact"
-          className="text-lg no-underline text-grey-darkest hover:text-blue-dark header-font link"
+          className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-4 header-font link"
         >
           Contact
         </a>
