@@ -1,6 +1,8 @@
 import "./Navbar.css";
 import React from "react";
 import { DEV_JOURNAL_LINK } from "@/app/constants";
+import "@fontsource/titillium-web/700.css";
+
 export default function Navbar() {
   return (
     <nav className="flex flex-col text-center sm:flex-row sm:text-left sm:justify-between py-6 px-6 sm:items-baseline w-full">
