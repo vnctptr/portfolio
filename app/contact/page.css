@@ -1,6 +1,12 @@
 .contact-inner-container {
-  margin: auto;
+  margin: 6em auto;
   max-width: 45em;
-  margin-top: 6em;
+}
+
+.flat-box {
+  color: #ffffffc4;
+  border-radius: 10px;
+  background-color: #1b212d57;
+  box-shadow: 0.5em 0.5em 0.1em rgba(15, 18, 26, 0.53);
   padding: 2.5em;
 }

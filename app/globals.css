@@ -34,13 +34,6 @@ p {
   font-family: "Titillium Web", "Trebuchet MS", sans-serif;
 }
 
-.flat-box {
-  color: #ffffffc4;
-  border-radius: 10px;
-  background-color: #1b212d57;
-  box-shadow: 0.5em 0.5em 0.1em rgba(15, 18, 26, 0.53);
-}
-
 .link:hover {
   filter: opacity(75%);
 }
