@@ -14,6 +14,12 @@ export default function Navbar() {
       </div>
       <div>
         <a
+          href="/"
+          className="text-lg no-underline text-grey-darkest hover:text-blue-dark header-font link"
+        >
+          Home
+        </a>
+        <a
           href="contact"
           className="text-lg no-underline text-grey-darkest hover:text-blue-dark header-font link"
         >
