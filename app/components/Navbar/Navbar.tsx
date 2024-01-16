@@ -1,5 +1,6 @@
 import "./Navbar.css";
 import React from "react";
+import { DEV_JOURNAL_LINK } from "@/app/constants";
 export default function Navbar() {
   return (
     <nav className="flex flex-col text-center sm:flex-row sm:text-left sm:justify-between py-6 px-6 sm:items-baseline w-full">
@@ -17,7 +18,7 @@ export default function Navbar() {
           Contact
         </a>
         <a
-          href="http://www.vnctptr.me"
+          href={DEV_JOURNAL_LINK}
           target="_blank"
           className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-4 header-font link"
         >

@@ -2,14 +2,12 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import "./SocialIcons.css";
+import { EMAIL_LINK, GITHUB_LINK, LINKEDIN_LINK } from "@/app/constants";
 
 export default function SocialIcons() {
-  let githubLink = "https://github.com/vnctptr";
-  let linkedInLink = "https://www.linkedin.com/in/vincent-potrykus-593a53214/";
-  let emailLink = "mailto:vincentpotrykus@gmail.com";
   return (
     <div className="icon-container">
-      <Link href={githubLink}>
+      <Link href={GITHUB_LINK}>
         <Image
           className="link"
           src="/github-icon-white.svg"
@@ -19,7 +17,7 @@ export default function SocialIcons() {
           priority
         />
       </Link>
-      <Link href={linkedInLink}>
+      <Link href={LINKEDIN_LINK}>
         <Image
           className="link"
           src="/linkedin-icon-white.svg"
@@ -29,7 +27,7 @@ export default function SocialIcons() {
           priority
         />
       </Link>
-      <Link href={emailLink}>
+      <Link href={EMAIL_LINK}>
         <Image
           className="link"
           src="/email.svg"
