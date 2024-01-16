@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "@/app/components/Card/Card";
 import Navbar from "@/app/components/Navbar/Navbar";
-import "@fontsource/titillium-web/700.css";
 import SocialIcons from "@/app/components/SocialIcons/SocialIcons";
 import Image from "next/image";
 import { DEV_JOURNAL_LINK, EMAIL_LINK } from "@/app/constants";
