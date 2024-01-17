@@ -9,26 +9,26 @@ export default function Navbar() {
       <div className="mb-2 sm:mb-0">
         <a
           href="/"
-          className="page-title text-2xl no-underline text-grey-darkest hover:text-blue-dark"
+          className="page-title text-2xl no-underline hover:text-blue-dark"
         ></a>
       </div>
       <div>
         <a
           href="/"
-          className="text-lg no-underline text-grey-darkest hover:text-blue-dark header-font link"
+          className="text-lg no-underline hover:text-blue-dark header-font link"
         >
           Home
         </a>
         <a
           href="contact"
-          className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-4 header-font link"
+          className="text-lg no-underline hover:text-blue-dark ml-4 header-font link"
         >
           Contact
         </a>
         <a
           href={DEV_JOURNAL_LINK}
           target="_blank"
-          className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-4 header-font link"
+          className="text-lg no-underline hover:text-blue-dark ml-4 header-font link"
         >
           Dev Journal
         </a>
