@@ -69,10 +69,10 @@ export default function Home() {
           </div>
         </div>
         <div className="mb-32 grid lg:max-w-3xl lg:w-full lg:mb-0 lg:grid-cols-2 text-left">
-          <Card imageSrc={habitImageSrc} />
-          <Card imageSrc={devJournalImageSrc} />
-          <Card imageSrc={habitImageSrc} />
-          <Card imageSrc={habitImageSrc} />
+          <Card imageSrc={habitImageSrc} title={"Habit App"} />
+          <Card imageSrc={devJournalImageSrc} title={"Dev Journal"} />
+          <Card imageSrc={habitImageSrc} title={"Habit App"} />
+          <Card imageSrc={habitImageSrc} title={"Habit App"} />
         </div>
       </main>
     </>
