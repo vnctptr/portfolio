@@ -9,9 +9,9 @@ export default function Card({ imageSrc }: { imageSrc: string }) {
     <div className="m-8">
       <div className="card-container">
         <div className="card-top-bar">
-          <div className="small-circle" />
-          <div className="small-circle" />
-          <div className="small-circle" />
+          {[...Array(3)].map((_, index) => (
+            <div key={index} className="small-circle" />
+          ))}
         </div>
         <div className="card-content">
           <Image
