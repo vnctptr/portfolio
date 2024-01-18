@@ -1,9 +1,13 @@
 .card-container {
   background-color: #1b212d;
-  border: 1.5px solid #0f121a;
+  border: 2px solid #0f121a;
   border-radius: 6px;
   margin: 0 auto;
   box-shadow: 0.5em 0.5em 0.1em rgba(15, 18, 26, 0.53);
+}
+
+.card-container:hover {
+  filter: opacity(80%);
 }
 
 .card-top-bar {
