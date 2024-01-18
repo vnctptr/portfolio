@@ -37,3 +37,7 @@ p {
 .link-accent > a:hover {
   color: #c85300;
 }
+
+.footer {
+  background-color: #0f121a;
+}

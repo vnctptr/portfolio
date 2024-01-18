@@ -68,13 +68,14 @@ export default function Home() {
             <h1 className="font-bold mt-20 text-left">PROJECTS</h1>
           </div>
         </div>
-        <div className="mb-32 grid lg:max-w-3xl lg:w-full lg:mb-0 lg:grid-cols-2 text-left">
+        <div className="mb-64 grid lg:max-w-3xl lg:w-full lg:mb-0 lg:grid-cols-2 text-left">
           <Card imageSrc={habitImageSrc} title={"Habit App"} />
           <Card imageSrc={devJournalImageSrc} title={"Dev Journal"} />
           <Card imageSrc={habitImageSrc} title={"Habit App"} />
           <Card imageSrc={habitImageSrc} title={"Habit App"} />
         </div>
       </main>
+      <div className="py-10 mt-16 footer"></div>
     </>
   );
 }
