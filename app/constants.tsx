@@ -4,3 +4,5 @@ export const LINKEDIN_LINK =
 export const EMAIL_LINK = "mailto:vincentpotrykus@gmail.com";
 
 export const DEV_JOURNAL_LINK = "https://www.vnctptr.me";
+
+export const EMAIL = "vincentpotrykus@gmail.com";
