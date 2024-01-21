@@ -3,7 +3,7 @@ import Card from "@/app/components/Card/Card";
 import Navbar from "@/app/components/Navbar/Navbar";
 import SocialIcons from "@/app/components/SocialIcons/SocialIcons";
 import Image from "next/image";
-import { DEV_JOURNAL_LINK, EMAIL_LINK } from "@/app/constants";
+import { DEV_JOURNAL_LINK, EMAIL, EMAIL_LINK } from "@/app/constants";
 
 export default function Home() {
   let habitImageSrc = "/habit-iphone.png";
@@ -21,9 +21,9 @@ export default function Home() {
               Hi! Welcome to my portfolio page. My name is Vincent and I&apos;m
               a software developer based in beautiful Victoria, BC If you&apos;d
               like to get in touch with me, feel free to send me an email at{" "}
-              <a href={EMAIL_LINK}>vincentpotrykus@gmail.com</a>. You can also
-              find me on Github and LinkedIn using the icons below. PS Don’t
-              forget to check out my <a href={DEV_JOURNAL_LINK}>Dev Journal</a>!
+              <a href={EMAIL_LINK}>{EMAIL}</a>. You can also find me on Github
+              and LinkedIn using the icons below. PS Don’t forget to check out
+              my <a href={DEV_JOURNAL_LINK}>Dev Journal</a>!
             </p>
             <div className="flex gap-4">
               <SocialIcons />
